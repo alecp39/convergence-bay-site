@@ -64,7 +64,7 @@ function Landing() {
             </div>
           </motion.div>
           <motion.div initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }}>
-            <img src="/images/2CA0CB75-66B2-4A6E-9203-6C1E247AF563.png" alt="Landing visual" className="rounded-2xl shadow-xl bg-white" />
+            <img src="/images/convergencebay-hero.png" alt="Convergence Bay hero lineup" className="rounded-2xl shadow-xl bg-white" />
           </motion.div>
         </div>
       </Container>
@@ -88,7 +88,7 @@ function ConvergenceBay() {
       <Container>
         <SectionTitle title="Convergence Bay" subtitle="Popular premium range evoking Cape West Coast life—quality, typicity, and value." />
         <div className="mt-10 grid md:grid-cols-2 gap-8 items-center">
-          <img src="/images/2CA0CB75-66B2-4A6E-9203-6C1E247AF563.png" alt="Convergence Bay Bottle Lineup" className="rounded-2xl shadow-lg bg-white" />
+          <img src="/images/convergencebay-hero.png" alt="Convergence Bay bottle lineup" className="rounded-2xl shadow-lg bg-white" />
           <div className="text-slate-700 leading-relaxed">
             <ul className="space-y-2">
               <li><span className="font-medium">Product characteristics:</span> Solid varietals with strong QPR.</li>
@@ -108,7 +108,7 @@ function ConvergenceBay() {
             <CardContent>
               <details>
                 <summary className="cursor-pointer font-medium text-sky-700">View Brand Assets</summary>
-                <img src="/images/6BAFE256-4EF1-4D6B-9CA7-42C0C2F87D91.png" alt="Convergence Bay Brand Assets" className="mt-2 w-full object-contain bg-white rounded-lg" />
+                <img src="/images/convergencebay-assets.png" alt="Convergence Bay brand assets" className="mt-2 w-full object-contain bg-white rounded-lg" />
               </details>
             </CardContent>
           </Card>
@@ -124,7 +124,7 @@ function CapeElephant() {
       <Container>
         <SectionTitle title="Cape Elephant" subtitle="Entry-level, easy-drinking wines delivering everyday value." />
         <div className="mt-10 grid md:grid-cols-2 gap-8 items-center">
-          <img src="/images/45E6B245-A6D1-4FE7-9AC0-29AFA30A875D.png" alt="Cape Elephant Bottle Lineup" className="rounded-2xl shadow-lg bg-white" />
+          <img src="/images/cape-elephant-lineup.png" alt="Cape Elephant bottle lineup" className="rounded-2xl shadow-lg bg-white" />
           <div className="text-slate-700 leading-relaxed">
             <ul className="space-y-2">
               <li><span className="font-medium">Product characteristics:</span> Large production, approachable.</li>
@@ -140,7 +140,7 @@ function CapeElephant() {
             <CardContent>
               <details>
                 <summary className="cursor-pointer font-medium text-sky-700">View Brand Assets</summary>
-                <img src="/images/933C593F-1149-45F5-868E-ADB2078E0C24.png" alt="Cape Elephant Brand Assets" className="mt-2 w-full object-contain bg-white rounded-lg" />
+                <img src="/images/cape-elephant-assets.png" alt="Cape Elephant brand assets" className="mt-2 w-full object-contain bg-white rounded-lg" />
               </details>
             </CardContent>
           </Card>
@@ -156,7 +156,7 @@ function FairRoots() {
       <Container>
         <SectionTitle title="Fair Roots" subtitle="Premium wines with conscience and terroir—Fairtrade-minded and quality driven." />
         <div className="mt-10 grid md:grid-cols-2 gap-8 items-center">
-          <img src="/images/D5B3B44D-0852-4674-B093-3FCCB41A8633.png" alt="FairRoots Bottle Lineup" className="rounded-2xl shadow-lg bg-white" />
+          <img src="/images/fair-roots-lineup.png" alt="Fair Roots bottle lineup" className="rounded-2xl shadow-lg bg-white" />
           <div className="text-slate-700 leading-relaxed">
             <ul className="space-y-2">
               <li><span className="font-medium">Product characteristics:</span> Clear sense of place, reliable quality.</li>
@@ -176,7 +176,7 @@ function FairRoots() {
             <CardContent>
               <details>
                 <summary className="cursor-pointer font-medium text-sky-700">View Brand Assets</summary>
-                <img src="/images/E74B4276-2471-4FC3-B455-AA30D7A1C87B.png" alt="FairRoots Brand Assets" className="mt-2 w-full object-contain bg-white rounded-lg" />
+                <img src="/images/fair-roots-assets.png" alt="Fair Roots brand assets" className="mt-2 w-full object-contain bg-white rounded-lg" />
               </details>
             </CardContent>
           </Card>
@@ -193,13 +193,13 @@ function PremiumWines() {
         <SectionTitle title="Our Premium Wines" subtitle="Sweef Sauvignon Blanc, Erfgenaam Chenin Blanc, and The Fog Merlot form the pinnacle of our collection." />
         <div className="mt-10 grid md:grid-cols-3 gap-8">
           <Card className="rounded-2xl overflow-hidden">
-            <img src="/images/30C48801-4888-42B4-B98C-9D899BFB41CC.png" alt="Sweef Bottle" className="w-full h-60 object-contain bg-white" />
+            <img src="/images/sweef-bottle.png" alt="Sweef Bottle" className="w-full h-60 object-contain bg-white" />
             <CardHeader><CardTitle>Sweef</CardTitle></CardHeader>
             <CardContent className="text-slate-700">
               Crisp Sauvignon Blanc with fruit and minerality.
               <details className="mt-3">
                 <summary className="cursor-pointer font-medium text-sky-700">View Brand Assets</summary>
-                <img src="/images/924773AF-38EA-4A0B-8A24-89863F6DA9F1.png" alt="Sweef Brand Assets" className="mt-2 w-full object-contain bg-white rounded-lg" />
+                <img src="/images/sweef-assets.png" alt="Sweef brand assets" className="mt-2 w-full object-contain bg-white rounded-lg" />
               </details>
               <details className="mt-3">
                 <summary className="cursor-pointer font-medium text-emerald-700">View Tasting Notes</summary>
@@ -207,14 +207,15 @@ function PremiumWines() {
               </details>
             </CardContent>
           </Card>
+
           <Card className="rounded-2xl overflow-hidden">
-            <img src="/images/A2315C94-440B-4E35-AA7E-3F8637D5F2B5.png" alt="Erfgenaam Bottle" className="w-full h-60 object-contain bg-white" />
+            <img src="/images/erfgenaam-bottle.png" alt="Erfgenaam Bottle" className="w-full h-60 object-contain bg-white" />
             <CardHeader><CardTitle>Erfgenaam</CardTitle></CardHeader>
             <CardContent className="text-slate-700">
               Old-vine Chenin Blanc with depth and structure.
               <details className="mt-3">
                 <summary className="cursor-pointer font-medium text-sky-700">View Brand Assets</summary>
-                <img src="/images/9A731EAF-19A5-482F-AF81-BBED7D27F274.png" alt="Erfgenaam Brand Assets" className="mt-2 w-full object-contain bg-white rounded-lg" />
+                <img src="/images/erfgenaam-assets.png" alt="Erfgenaam brand assets" className="mt-2 w-full object-contain bg-white rounded-lg" />
               </details>
               <details className="mt-3">
                 <summary className="cursor-pointer font-medium text-emerald-700">View Tasting Notes</summary>
@@ -222,14 +223,15 @@ function PremiumWines() {
               </details>
             </CardContent>
           </Card>
+
           <Card className="rounded-2xl overflow-hidden">
-            <img src="/images/9A731EAF-19A5-482F-AF81-BBED7D27F274.png" alt="The Fog Bottle" className="w-full h-60 object-contain bg-white" />
+            <img src="/images/fog-bottle.png" alt="The Fog Bottle" className="w-full h-60 object-contain bg-white" />
             <CardHeader><CardTitle>The Fog</CardTitle></CardHeader>
             <CardContent className="text-slate-700">
               Elegant cool-climate Merlot—refined and layered.
               <details className="mt-3">
                 <summary className="cursor-pointer font-medium text-sky-700">View Brand Assets</summary>
-                <img src="/images/58DD7554-41D0-444E-9759-53B16B529192.png" alt="The Fog Brand Assets" className="mt-2 w-full object-contain bg-white rounded-lg" />
+                <img src="/images/fog-assets.png" alt="The Fog brand assets" className="mt-2 w-full object-contain bg-white rounded-lg" />
               </details>
               <details className="mt-3">
                 <summary className="cursor-pointer font-medium text-emerald-700">View Tasting Notes</summary>
